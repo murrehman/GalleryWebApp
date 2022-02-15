@@ -1,0 +1,50 @@
+<img src="/assets/logo_small.png" class="image" alt="logo">
+<div *ngIf="isValid; else toProducts">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" routerLinkActive="active" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/products">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/contactus">Contact
+                Us</a>
+        </li>
+    </ul>
+</div>
+<ng-template #toProducts>
+    <div class="reverse" *ngIf="productsLink; else toGallery">
+
+        <a class="rewind" routerLink="/products"><img src="/assets/arrow.png"> Back to Products</a>
+    </div>
+    <ng-template #toGallery>
+        <div class="reverse">
+
+            <a class="rewind" routerLink="/gallery"><img src="/assets/arrow.png"> Back to Gallery</a>
+        </div>
+    </ng-template>
+</ng-template>
+
+<!-- <button class="btn btn-primary btn-sm" (click)="onClick()">Sign In</button> -->
+<div class="" *ngIf="SignIn">
+    <button class="btn btn-primary btn-sm" (click)="onClick()">Sign In</button>
+</div>
+<div *ngIf="Signout">
+    <button class="btn btn-primary btn-sm" (click)="onClickSignOut()">Sign Out</button>
+    <p class="txt2">Welcome: Rehman!!</p>
+</div>
+<div *ngIf="contactus">
+    <p class="txt"><img src="https://img.icons8.com/material-rounded/16/4a90e2/send-mass-email.png" />
+        trendygadets@email.com</p>
+    <p class="txt1"><img src="https://img.icons8.com/ios-glyphs/16/4a90e2/ringing-phone.png" />
+        00 (123) 456 78 90 </p>
+</div>
+<!-- <router-outlet></router-outlet> -->
+<!-- (click)="onClickContact()" -->

@@ -1,0 +1,90 @@
+/* 
+  .topnav {
+    justify-content: center;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+  .image {
+      position: absolute;
+      display: inline-block;
+      height: 70px;
+      width: 70px;
+      margin-left: 5%;
+      margin-top: 1%;
+  }
+/* 
+  .nav {
+    display: flex;
+    margin-right: 120px;
+  } */
+
+.nav li {
+    display: flex;
+    margin-top: 20px;
+    font-size: large;
+    padding-right: 15px;
+}
+
+.btn {
+    float: right;
+    margin-top: -37px;
+    margin-right: 5%;
+}
+
+.nav-link {
+    color:black;
+}
+
+.txt {
+    float: right;
+    margin-top: -45px;
+    margin-right: 5%;
+    font-size: medium;
+    font: bold;
+}
+
+.txt1 {
+  float: right;
+  margin-top: -25px;
+  margin-right: 5%;
+  font-size: medium;
+  font: bold;
+}
+
+.txt2 {
+  float: right;
+  margin-top: -37px;
+  margin-right: 13%;
+  font-size: large;
+  font: bold;
+}
+
+.reverse {
+  /* display: flex; */
+  margin-left: 15%;
+  padding-top: 3%;
+}
+
+.rewind {
+  color: black;
+}
+
