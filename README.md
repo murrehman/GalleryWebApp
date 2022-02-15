@@ -1,4 +1,6 @@
-# Exercise2
+# Angular GalleryApp
+
+Needs Improvement-> Working on it!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
