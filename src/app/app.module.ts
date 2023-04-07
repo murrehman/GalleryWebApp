@@ -17,6 +17,7 @@ import { WashingMachineComponent } from './washing-machine/washing-machine.compo
 import { HomeComponent } from './home/home.component';
 import { GalleryItemComponent } from './gallery-item/gallery-item.component';
 import { GalleryItems } from './appModels/GalleryItems';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 // const appRoutes: Routes = [
 //   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -65,7 +66,8 @@ import { GalleryItems } from './appModels/GalleryItems';
     LoginComponent,
     ContactusComponent,
     HomeComponent,
-    GalleryItemComponent
+    GalleryItemComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,

@@ -18,7 +18,7 @@ export class ContactusComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this._heroService.contactus.next(false);
-    this._heroService.Signout.next(true);
+    this._heroService.SignIn.next(true);
   }
 
 }

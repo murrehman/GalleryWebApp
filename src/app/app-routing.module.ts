@@ -10,11 +10,13 @@ import { MobileComponent } from './mobile/mobile.component';
 import { ProductsComponent } from './products/products.component';
 import { TelevisionComponent } from './television/television.component';
 import { WashingMachineComponent } from './washing-machine/washing-machine.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   // { path: 'gallery', component: GalleryComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'aboutus', component: AboutusComponent },
   { path: 'login', component: LoginComponent },
   // { path: 'buy-products', component: ParentComponent },
   // { path: 'about', component: AboutComponent },
